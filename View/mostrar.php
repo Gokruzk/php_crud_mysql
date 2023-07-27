@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <a href="../index.html">
+        <a href="../api/index.php">
             <h1>REPASO PARA PRUEBA PARCIAL</h1>
         </a>
     </header>
