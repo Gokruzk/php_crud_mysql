@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buscar Alumno</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+
+  <body>
+    <header>
+      <a href="../index.html">
+        <h1>REPASO PARA PRUEBA PARCIAL</h1>
+      </a>
+    </header>
+    <div class="content">
+      <div class="title">
+        <h2>BUSCAR ALUMNO</h2>
+      </div>
+      <div class="wrapper">
+        <div class="flip-card__inner">
+          <div class="flip-card__front">
+            <form
+              class="flip-card__form"
+              method="post"
+              action="../Model/select_name.php"
+            >
+              <input
+                class="flip-card__input"
+                id="name"
+                name="name"
+                type="text"
+                onkeyup="upper()"
+                placeholder="Nombre"
+              />
+              <a href="#" tabindex="0">
+                <button class="flip-card__btn">Buscar</button>
+              </a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../app.js"></script>
+  </body>
+</html>

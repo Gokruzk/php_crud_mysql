@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="../index.html">
+        <h1>REPASO PARA PRUEBA PARCIAL</h1>
+      </a>
+    </header>
+    <div class="content">
+      <div class="title">
+        <h2>AGREGAR ALUMNO</h2>
+      </div>
+      <div class="wrapper">
+        <div class="flip-card__inner">
+          <div class="flip-card__front">
+            <form
+              class="flip-card__form"
+              action="../Model/insert.php"
+              method="post"
+            >
+              <input
+                class="flip-card__input"
+                id="name"
+                name="name"
+                type="text"
+                onclick="randoms()"
+                onkeyup="upper()"
+                placeholder="Nombre"
+                maxlength="15"
+              />
+              <input
+                class="flip-card__input"
+                readonly
+                id="notaE"
+                name="notaE"
+                type="text"
+                placeholder="Nota Estudiante"
+              />
+              <input
+                class="flip-card__input"
+                readonly
+                id="notaR"
+                name="notaR"
+                type="text"
+                placeholder="Nota Redondeada"
+              />
+              <a href="#">
+                <button class="flip-card__btn">Agregar</button>
+              </a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../app.js"></script>
+  </body>
+</html>
