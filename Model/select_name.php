@@ -24,7 +24,7 @@ if (mysqli_num_rows($res) == 0) {
 
     <body>
         <header>
-            <a href="../api/index.php">
+            <a href="../index.php">
                 <h1>REPASO PARA PRUEBA PARCIAL</h1>
             </a>
         </header>
