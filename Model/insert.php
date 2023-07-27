@@ -3,7 +3,7 @@ include("../Config/conn.php");
 $name = $_POST['name'];
 $notaE = $_POST["notaE"];
 $notaR = $_POST["notaR"];
-$sql = "INSERT INTO alumnos(NombreEstu, Nota_Estu, NotaRedond) VALUES('$name',$notaE,$notaR)";
+$sql = "INSERT INTO Alumnos(NombreEstu, Nota_Estu, NotaRedond) VALUES('$name',$notaE,$notaR)";
 $res = mysqli_query($conn, $sql);
 if ($res) {
     ?>
